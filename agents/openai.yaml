@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex History Recovery"
+  short_description: "Recover Codex chats and project history"
+  default_prompt: "Use $codex-history-recovery to diagnose and repair my Codex Desktop history sidebar."
