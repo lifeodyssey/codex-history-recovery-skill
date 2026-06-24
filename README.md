@@ -1,6 +1,6 @@
 # Codex History Recovery Skill
 
-[![skills.sh](https://skills.sh/b/lifeodyssey/codex-history-recovery-skill)](https://skills.sh/lifeodyssey/codex-history-recovery-skill)
+[View on skills.sh](https://skills.sh/lifeodyssey/codex-history-recovery-skill/codex-history-recovery)
 
 A Codex skill for diagnosing and repairing local Codex Desktop history/sidebar state.
 
