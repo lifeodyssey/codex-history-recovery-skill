@@ -1,10 +1,26 @@
 # Codex History Recovery Skill
 
+[![skills.sh](https://skills.sh/b/lifeodyssey/codex-history-recovery-skill)](https://skills.sh/lifeodyssey/codex-history-recovery-skill)
+
 A Codex skill for diagnosing and repairing local Codex Desktop history/sidebar state.
 
 It targets cases where chats, projects, project labels, or project history disappear after local state drift, provider experiments, or `model_provider=headroom` rows in Codex state databases.
 
 ## Install
+
+Recommended:
+
+```sh
+npx skills add lifeodyssey/codex-history-recovery-skill --skill codex-history-recovery -g -a codex -y
+```
+
+Preview the skill before installing:
+
+```sh
+npx skills add lifeodyssey/codex-history-recovery-skill --list
+```
+
+Manual install:
 
 ```sh
 git clone https://github.com/lifeodyssey/codex-history-recovery-skill.git ~/.codex/skills/codex-history-recovery

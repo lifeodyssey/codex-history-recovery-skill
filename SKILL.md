@@ -5,6 +5,12 @@ description: Diagnose and repair Codex Desktop local history/sidebar state when 
 
 # Codex History Recovery
 
+Recommended installation:
+
+```bash
+npx skills add lifeodyssey/codex-history-recovery-skill --skill codex-history-recovery -g -a codex -y
+```
+
 ## Workflow
 
 1. Verify live state before changing anything:
