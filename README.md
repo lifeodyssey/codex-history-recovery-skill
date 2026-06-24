@@ -30,22 +30,34 @@ Restart Codex so the skill is discovered.
 
 ## Use
 
+For the recommended `npx skills` install:
+
+```sh
+SKILL_DIR="$HOME/.agents/skills/codex-history-recovery"
+```
+
+For the manual install:
+
+```sh
+SKILL_DIR="$HOME/.codex/skills/codex-history-recovery"
+```
+
 Dry-run first:
 
 ```sh
-node ~/.codex/skills/codex-history-recovery/scripts/restore-codex-history.mjs
+node "$SKILL_DIR/scripts/restore-codex-history.mjs"
 ```
 
 Apply only after the summary looks right:
 
 ```sh
-node ~/.codex/skills/codex-history-recovery/scripts/restore-codex-history.mjs --apply
+node "$SKILL_DIR/scripts/restore-codex-history.mjs" --apply
 ```
 
 If Codex Desktop keeps rewriting stale state while open, run the after-quit helper:
 
 ```sh
-sh ~/.codex/skills/codex-history-recovery/scripts/wait-for-codex-quit-and-restore.sh
+sh "$SKILL_DIR/scripts/wait-for-codex-quit-and-restore.sh"
 ```
 
 Then fully quit Codex Desktop with `Cmd+Q`, wait a few seconds, and reopen it.
